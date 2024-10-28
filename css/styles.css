@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: whitesmoke;
+    padding: 15px 30px;
+} 
+
+.navbar{
+    display: flex;
+    gap: 90px;
+    font-family: 'Poppins';
+
+
+}
+
+.navbar-list {
+    display: flex;
+    gap: 20px;
+    font: size 14px;
+    color:black;
+    text-decoration: solid, none;
+    justify-content: right;
+}
+
+.logo {
+    height: 40px;
+}
+
+body {
+    background-color: lightcoral;
+}
